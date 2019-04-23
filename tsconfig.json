@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["es6", "es2015", "es2017", "dom", "esnext.asynciterable"],
+    "types": ["node"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "pretty": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "outDir": "build"
+  },
+  "exclude": [
+    "node_modules",
+    ".npmrc",
+    ".ebextensions",
+    "build",
+    "dist",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "dist.js",
+    "./src/**/*.test.ts"
+  ],
+  "types": ["typePatches", "node", "webpack-env"]
+}
